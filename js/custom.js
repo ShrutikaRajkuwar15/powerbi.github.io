@@ -60,7 +60,7 @@ document.getElementById("closeBtn").onclick = function() {
 
 // Form submission and validation
 document.getElementById("submit").onsubmit = function(event) {
-    event.preventDefault(); 
+    // event.preventDefault(); 
     
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -74,6 +74,7 @@ document.getElementById("submit").onsubmit = function(event) {
         document.getElementById("popupForm").style.display = "none"; 
     }
 };
+
 
 // data aos js
 

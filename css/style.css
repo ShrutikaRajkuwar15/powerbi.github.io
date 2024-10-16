@@ -191,8 +191,12 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+  color: #000000 !important;
 }
-
+.custom_nav-container .navbar-toggler span{
+  color: #000000 !important;
+ 
+}
 .custom_nav-container .navbar-toggler {
   padding: 0;
   width: 37px;

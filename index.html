@@ -90,9 +90,43 @@
             </ul>
           </div>
         </nav>
+
+
+        
+
+
       </div>
     </header>
     <!-- end header section -->
+
+
+    <!-- <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./images/Logo.png" alt="" style="width: 14rem;"></a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
     <!-- slider section -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel" data-bs-interval="1000">
@@ -201,7 +235,7 @@
       <h4 style="font-weight: 600;   color: #00bbf0;">Book Your First <br>Free Demo !</h4>
       <img src="images/Power1.jpg" alt="" class="popup-img">
 
-      <form id="submit">
+      <form action="form_data.php" method="POST"  >
           <!-- <label for="name">Your Name:</label> -->
           <input type="text" id="name" name="name" required placeholder="Your Name:">
           
@@ -740,13 +774,12 @@
 
   <!-- end client section -->
 
-
   <!-- info section -->
 
   <section class="info_section layout_padding2" id="Contact_Us">
     <div class="container mx-auto" style="display: flex;justify-content: space-between;   ">
       <div class="row">
-        <div class="col-md-6 col-lg-4 info_col" >
+        <div class="col-md-6 col-lg-4 info_col mx-auto" >
           <div class="info_contact">
             <h4>
               <span>Address</span>
@@ -755,12 +788,13 @@
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
-                  4th Floor, Krishna Complex PLAZA, Karve Nagar, Pune, Maharashtra 411052                </span>
+                  Pune, Maharashtra 411052            
+                    </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +91 7820934904
+                  Call +91 123456789
                 </span>
               </a>
               <a href="">
@@ -786,7 +820,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 info_col">
+        <div class="col-md-6 col-lg-4 info_col mx-auto">
           <div class="info_detail">
             <h4>
               Info
@@ -796,7 +830,7 @@
               and certification prep. Boost your skills and turn data into insights—enroll now!            </p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mx-auto info_col">
+        <div class="col-md-6 col-lg-4 mx-auto info_col  mx-auto">
           <div class="info_link_box">
             <h4>
               Links
@@ -814,37 +848,25 @@
               <a class="" href="why.html">
                 Why Us
               </a>
-              
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-6 col-lg-3 info_col ">
-          <h4>
-            Subscribe
-          </h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
-          </form>
-        </div> -->
       </div>
     </div>
   </section>
-
+<!-- footer section -->
+<section class="footer_section">
+  <div class="container">
+    <p>
+      &copy; <span id="displayYear"></span> All Rights Reserved By
+      <a href="./index.html">Power BI Course in Pune</a>
+    </p>
+  </div>
+</section>
+<!-- footer section -->
   <!-- end info section -->
 
-  <!-- footer section -->
-  <section class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="">Power BI Course in Pune</a>
-      </p>
-    </div>
-  </section>
-  <!-- footer section -->
+  
 
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
